@@ -1,0 +1,22 @@
+body{
+	margin: 0;
+	padding: 0;
+    background-color: #333;
+    height: 100%;
+}
+html,
+.login-form-wrapper,
+.login-form-wrapper .container,
+.login-form-wrapper .row
+{
+	height: 100%;
+}
+button[type='submit']{
+	letter-spacing: 1px;
+}
+a.account {
+    margin-top: 3px;
+    text-decoration-line: none;
+    /* text-transform: lowercase; */
+    text-transform: capitalize;
+}

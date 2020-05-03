@@ -1,0 +1,37 @@
+.profile_container {
+    width: 100%;
+    max-width: 40px;
+    min-height: 40px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 22%;
+    /* margin-bottom: 50px; */
+}
+.user_photo{
+    width: 100%;
+    max-width: 50px;
+    min-height: 50px;
+    border-radius: 50%;
+    image-resolution: 300;
+}
+b.user_name {
+    position: absolute;
+    /* width: 100px; */
+    width: max-content;
+    margin-left: 45px;
+    margin-top: 5px;
+    /* height: 100px; */
+}
+label.upload_image {
+    background: #1A73E8;
+    padding: 5px 21px;
+    text-transform: uppercase;
+    color: #fff;
+    /* pointer-events: bounding-box; */
+    pointer-events: courser;
+    cursor: pointer;
+    /* padding: 2px; */
+    border-radius: 2px;
+}
